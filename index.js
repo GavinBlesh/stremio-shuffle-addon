@@ -9,7 +9,7 @@ const collectionID = "Monster_Of_The_Week_collection_main";
 //Loads in JSON Data
 let allEpisodes = [];
 try {
-    const data = fs.readFileSynch(episodeFile, "utf8");
+    const data = fs.readFileSync(episodeFile, "utf8");
     allEpisodes = JSON.parse(data);
 } catch (error){
     console.error("You Fucked Up Something");
@@ -23,7 +23,7 @@ const collectionMeta = {
     type: "series",
     name: "Monster of The Week Shuffle",
     poster: "https://m.media-amazon.com/images/M/MV5BMTg1NTEyNjc4NV5BMl5BanBnXkFtZTYwMzk1NTc2._V1_QL75_UX496.5_.jpg",
-    background: "https://www.google.com/search?client=firefox-b-1-d&udm=2&q=aliens%20in%20the%20attic%20imdb#vhid=m5ZorHGvOmC59M&vssid=mosaic",
+    background: "https://m.media-amazon.com/images/M/MV5BYTIzMDFlYzYtYzlmNC00NWY4LTkyNTktNTY1OGZkOWYwNjkyXkEyXkFqcGc@._V1_.jpg",
     description: "Shuffled playlist containing MOTW episodes from Fringe, The X-Files, and all versions of The Twilight Zone",
 };
 
@@ -55,7 +55,7 @@ builder.defineMetaHandler(({ id }) => {
             thumbnail: ep.img,
             overview: `${ep.name}\nOriginal Air Date: ${new Date(ep.released * 1000).toDateString()}`
             //TODO: THE UPDATES IN MIND WOULD GO HERE!
-            //Include season + episode + description + name
+            //Include season + episode + description + nam
             //test
         };
     });
