@@ -1,0 +1,19 @@
+{
+  "id": "com.user.motw-shuffle",
+  "version": "1.0.0",
+  "name": "Monster of the Week Shuffle",
+  "description": "A randomly shuffled playlist of standalone episodes from Fringe, The X-Files, and The Twilight Zone. A new shuffle every time you open it!",
+  "types": ["series"],
+  "resources": [
+    "catalog",
+    "meta",
+    "stream"
+  ],
+  "catalogs": [
+    {
+      "type": "series",
+      "id": "motw_shuffle",
+      "name": "MOTW Shuffle"
+    }
+  ]
+}
