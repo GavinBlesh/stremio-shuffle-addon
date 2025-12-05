@@ -2,7 +2,8 @@
 
 ## ToDo List  
 1. Change from JSON to database (IMDB api)  
-2. Include episode descriptions  
+2. Include episode descriptions
+3. Run from server constantly or host cloud-based  
 
 ## How To Run  
 Open the folder in an IDE and open the terminal and run  
