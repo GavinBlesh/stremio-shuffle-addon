@@ -1,6 +1,6 @@
 # Stremio Shuffle Addon  
 
-##ToDo List  
+## ToDo List  
 1. Change from JSON to database (IMDB api)  
 2. Include episode descriptions  
 
