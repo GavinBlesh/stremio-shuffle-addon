@@ -1,5 +1,5 @@
 # Stremio Shuffle Addon  
-Information from this project partially sourced from `https://github.com/Stremio/stremio-addon-sdk/blob/master/README.md`  
+Information from this project partially sourced from:  
 https://github.com/Stremio/stremio-addon-sdk/blob/master/README.md 
 
 ## ToDo List  
